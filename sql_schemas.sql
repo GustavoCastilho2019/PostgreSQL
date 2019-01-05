@@ -1,5 +1,5 @@
 select 
-    schema_name
+    schema_name as schema
 from 
     information_schema.schemata
 where
